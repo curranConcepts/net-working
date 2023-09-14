@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 import { updateContact } from "../contacts";
 
+/**
+ * The function updates a contact with the provided form data and redirects to the contact's page.
+ */
 export async function action({ request, params }) {
     const formData = await request.formData();
     const updates = Object.fromEntries(formData);
@@ -13,6 +16,12 @@ export async function action({ request, params }) {
     return redirect(`/contacts/${params.contactId}`);
   }
 
+/**
+ * This function is a React component that renders a form for editing contact information, with
+ * fields for name, Twitter handle, avatar URL, and notes.
+ * @returns The function `EditContact` is returning a JSX element, which represents the form for
+ * editing a contact.
+ */
 export default function EditContact() {
   const contact = useLoaderData()
   const navigate = useNavigate()

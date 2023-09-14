@@ -10,6 +10,13 @@ import {
 import { getContacts, createContact } from "../contacts"
 import { useEffect } from "react"
 
+/**
+ * The function is a loader that retrieves contacts based on a query parameter and returns the contacts
+ * and the query parameter.
+ * @returns an object that contains two properties: "contacts" and "q". The "contacts" property
+ * contains the result of the "getContacts" function, which is awaited and passed the value of "q" as
+ * an argument. The "q" property contains the value of the "q" parameter extracted from the URL.
+ */
 export async function loader({ request }) {
   const url = new URL(request.url)
   const q = url.searchParams.get("q")
@@ -17,6 +24,10 @@ export async function loader({ request }) {
   return { contacts, q }
 }
 
+/**
+ * The function creates a contact and redirects to the edit page for that contact.
+ * @returns a redirect to the edit page of the newly created contact.
+ */
 export async function action(){
   const contact = await createContact()
   return redirect(`/contacts/${contact.id}/edit`)

@@ -4,6 +4,10 @@ import { Form,
 } from "react-router-dom"
 import { getContact, updateContact } from "../contacts"
 
+/**
+ * The function updates a contact's favorite status based on the value received from a form data.
+ * @returns the result of the `updateContact` function call.
+ */
 export async function action({ request, params }) {
   let formData = await request.formData();
   return updateContact(params.contactId, {
@@ -11,10 +15,18 @@ export async function action({ request, params }) {
   });
 }
 
+/**
+ * The function exports an asynchronous loader that retrieves a contact based on the provided contactId
+ * parameter.
+ * @returns the result of the `getContact` function, which is likely an object representing a contact.
+ */
 export async function loader({ params }){
     return getContact(params.contactId)
 }
 
+/* The `export default function Contact()` is a React component that represents the contact details
+page. It renders the contact's information, such as their avatar, name, Twitter handle, notes, and
+options to edit or delete the contact. */
 export default function Contact() {
   const contact = useLoaderData()
 
@@ -77,6 +89,14 @@ export default function Contact() {
   );
 }
 
+/**
+ * The `Favorite` component renders a button that allows the user to add or remove a contact from their
+ * favorites list.
+ * @returns The code is returning a button element that allows the user to toggle the favorite status
+ * of a contact. The button displays a star (★) if the contact is marked as a favorite, and a empty
+ * star (☆) if it is not. The button is wrapped in a form element that uses the `fetcher` hook to
+ * handle form submission.
+ */
 function Favorite({ contact }) {
   const fetcher = useFetcher()
   let favorite = contact.favorite

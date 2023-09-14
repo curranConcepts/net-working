@@ -21,6 +21,9 @@ import { action as destroyAction } from './routes/destroy'
 import Index from "./routes/index"
 
 
+/* The `createBrowserRouter` function is creating a router configuration for the React application. It
+takes an array of route objects as its argument. Each route object represents a specific route in
+the application. */
 const router = createBrowserRouter([
   {
     path: '/',
