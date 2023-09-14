@@ -14,7 +14,7 @@
 
 > A simple contact book application to keep track of networking contacts.
 
-### ✨ [Demo](https://test.com/)
+### ✨ [Demo](#)
 
 ## Usage
 
