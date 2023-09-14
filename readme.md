@@ -1,4 +1,7 @@
 <h1 align="center">Welcome to Net-Working 👋</h1>
+
+<iframe src="https://giphy.com/embed/3vRszJhlI0azK63S73" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/codingCurran" target="_blank">
