@@ -1,6 +1,9 @@
 <h1 align="center">Welcome to Net-Working 👋</h1>
 
-<iframe src="https://giphy.com/embed/3vRszJhlI0azK63S73" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<a target="_blank" href="#">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHlpM2I4ejRlYmtuM2oxMTJueHRuZjhsNWNxbGd1bjViYmV2dWFpcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3vRszJhlI0azK63S73/giphy.gif" width="100%"  alt="net-working"/>
+        </a>
+
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
