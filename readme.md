@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Net-Working 👋</h1>
 
 <a target="_blank" href="#">
-            <img src="https://gifyu.com/image/S4EVz" width="100%"  alt="net-working"/>
+            <img src="https://s11.gifyu.com/images/S4EVz.gif" alt="net-working"/>
         </a>
 
 
