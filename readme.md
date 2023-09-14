@@ -14,7 +14,7 @@
             <img src="https://s11.gifyu.com/images/S4EVz.gif" alt="net-working"/>
 </a>
 
-## Usage
+## 🚀 Usage
 
 clone this repo, navigate to the directory and run
 ```sh
