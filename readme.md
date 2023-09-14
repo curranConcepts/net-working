@@ -25,6 +25,11 @@ make your changes then run
 npm run build
 ``` 
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.<br />
+Feel free to check [issues page](https://github.com/curranConcepts/book-catalog-rest-api/issues) if you want to contribute.<br />
+
 ## Author
 
 👤 **Austin Curran**
