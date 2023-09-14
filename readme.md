@@ -1,10 +1,4 @@
 <h1 align="center">Welcome to Net-Working 👋</h1>
-
-<a target="_blank" href="#">
-            <img src="https://s11.gifyu.com/images/S4EVz.gif" alt="net-working"/>
-        </a>
-
-
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/codingCurran" target="_blank">
@@ -14,7 +8,11 @@
 
 > A simple contact book application to keep track of networking contacts.
 
-### ✨ [Demo](#)
+### ✨ Demo
+
+<a target="_blank" href="#">
+            <img src="https://s11.gifyu.com/images/S4EVz.gif" alt="net-working"/>
+</a>
 
 ## Usage
 
